@@ -1,0 +1,326 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LIVE რუკა</title>
+    <link rel="stylesheet" href="article.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.8/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-sRIl4kxILFvY47J16cr9ZwB07vP4J8+LH7qKQnuqkuIAvNWLzeN8tE5YBujZqJLB"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="../css/teaching.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.web-fonts.ge/fonts/bpg-square/css/bpg-square.min.css"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdn.web-fonts.ge/fonts/bpg-nostalgia/css/bpg-nostalgia.min.css"
+    />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap"
+      rel="stylesheet"
+    />
+
+</main>
+</head>
+  <body>
+
+    <div class="page-shell">
+      <header>
+        <nav>
+          <img class="logo" src="../images/logo.png" alt="logo" />
+          <a class="navigation" href="index.html">მთავარი</a>
+          <a class="navigation" href="about_us.html">ჩვენს შესახებ</a>
+          <a class="navigation" href="services.html">სერვისები</a>
+          <a id="active" class="navigation" href="teaching.html">LIVE რუკა</a>
+          <a class="navigation" href="news.html">სიახლე</a>
+          <a class="navigation" href="contact.html">კონტაქტი</a>
+        </nav>
+      </header>
+ <section class="content-card">
+      <p>
+        LIVE რუკა წარმოადგენს საქართველოს მასშტაბით პალიატიური მოთხოვნის საჭიროების რუკას.
+    </p>
+
+    <p>
+        მომხმარებლებს შეუძლიათ მარტივად ნახონ სტატისტიკა ქალაქზე მაუსის დაჭერით.
+    </p>  <head>
+    <p>
+        პლატფორმა რადიკალურად ამარტივებს ინფორმაციის მოძიებას.
+    </p>
+    </section>
+
+    <br>
+
+
+      <div class="page">
+        <div class="georgia-map">
+          <img
+            src="../images/map.png"
+            id="map"
+            class="map-image"
+            alt="Georgia"
+          />
+          <a href="#city1" class="node n1 high"></a>
+          <a href="#city2" class="node n2 medium"></a>
+          <a href="#city3" class="node n3 medium"></a>
+          <a href="#city4" class="node n4 high"></a>
+          <a href="#city5" class="node n5 medium"></a>
+          <a href="#city6" class="node n6 high"></a>
+          <a href="#city7" class="node n7 medium"></a>
+          <a href="#city8" class="node n8 low"></a>
+          <a href="#city9" class="node n9 low"></a>
+          <a href="#city10" class="node n10 medium"></a>
+          <a href="#city11" class="node n11 high"></a>
+        </div>
+      </div>
+
+      <div id="city10" class="popup">
+        <div class="popup-card">
+          <a href="#map" class="close">✕</a>
+          <h2>ქუთაისი</h2>
+          <p><strong>მოთხოვნა:</strong> მაღალი</p>
+          <p><strong>პაციენტები:</strong> 480</p>
+          <p><strong>ცენტრები:</strong> 3</p>
+        </div>
+      </div>
+
+      <div id="city9" class="popup">
+        <div class="popup-card">
+          <a href="#map" class="close">✕</a>
+          <h2>ბათუმი</h2>
+          <p><strong>მოთხოვნა:</strong> საშუალო</p>
+          <p><strong>პაციენტები:</strong> 350</p>
+          <p><strong>ცენტრები:</strong> 2</p>
+        </div>
+      </div>
+
+      <div id="city5" class="popup">
+        <div class="popup-card">
+          <a href="#map" class="close">✕</a>
+          <h2>თბილისი</h2>
+          <p><strong>მოთხოვნა:</strong> ძალიან მაღალი</p>
+          <p><strong>პაციენტები:</strong> 1250</p>
+          <p><strong>ცენტრები:</strong> 7</p>
+        </div>
+      </div>
+
+      <div class="main-container">
+        <div class="form-wrapper">
+          <h2>პალიატიური საჭიროების რეგისტრაცია</h2>
+
+          <input type="radio" id="step1-trigger" name="steps" checked />
+          <input type="radio" id="step2-trigger" name="steps" />
+          <input type="radio" id="step3-trigger" name="steps" />
+
+          <div class="steps-nav">
+            <label for="step1-trigger" class="tab-label btn-1"
+              >ნაბიჯი 1: შემავსებელი</label
+            >
+            <label for="step2-trigger" class="tab-label btn-2"
+              >ნაბიჯი 2: პაციენტი</label
+            >
+            <label for="step3-trigger" class="tab-label btn-3"
+              >ნაბიჯი 3: საჭიროებები</label
+            >
+          </div>
+
+          <form action="#" method="POST" class="interactive-form">
+            <div class="form-step step-1">
+              <h3>ბლოკი 1: განმცხადებელი</h3>
+              <div class="form-group">
+                <label>ვინ ავსებს ფორმას?</label>
+                <select required>
+                  <option value="">აირჩიეთ სტატუსი</option>
+                  <option value="patient">მე ვარ თავად პაციენტი</option>
+                  <option value="guardian">
+                    მეურვე / ოჯახის წევრი / ახლობელი
+                  </option>
+                  <option value="caregiver">მომვლელი</option>
+                  <option value="doctor">ექიმი / სამედიცინო პერსონალი</option>
+                </select>
+              </div>
+              <div class="form-group">
+                <label>თქვენი სახელი, გვარი</label>
+                <input type="text" placeholder="მაგ: გიორგი კაპანაძე" />
+              </div>
+              <div class="form-group">
+                <label>ტელეფონის ნომერი</label>
+                <input type="tel" placeholder="მაგ: 599 XXXXXX" required />
+              </div>
+              <label for="step2-trigger" class="next-btn"
+                >შემდეგი ნაბიჯი ➡️</label
+              >
+            </div>
+
+            <div class="form-step step-2">
+              <h3>ბლოკი 2: პაციენტის მონაცემები</h3>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>პაციენტის სახელი, გვარი</label>
+                  <input type="text" required />
+                </div>
+                <div class="form-group">
+                  <label>პირადი ნომერი (11 ნიშნა)</label>
+                  <input type="text" maxlength="11" required />
+                </div>
+              </div>
+              <div class="form-row">
+                <div class="form-group">
+                  <label>სქესი</label>
+                  <select>
+                    <option>მამრობითი</option>
+                    <option>მდედრობითი</option>
+                  </select>
+                </div>
+                <div class="form-group">
+                  <label>დაბადების თარიღი</label>
+                  <input type="date" required />
+                </div>
+              </div>
+              <div class="checkbox-group">
+                <label><input type="checkbox" /> სოციალურად დაუცველი</label>
+                <label><input type="checkbox" /> შშმ პირის სტატუსი</label>
+                <label><input type="checkbox" /> დევნილი</label>
+              </div>
+              <div class="navigation-btns">
+                <label for="step1-trigger" class="prev-btn">⬅️ უკან</label>
+                <label for="step3-trigger" class="next-btn"
+                  >შემდეგი ნაბიჯი ➡️</label
+                >
+              </div>
+            </div>
+
+            <div class="form-step step-3">
+              <h3>ბლოკი 3: გეოგრაფია და სამედიცინო კრიტერიუმები</h3>
+
+              <div class="form-group">
+                <label>აირჩიეთ ქალაქი (რუკაზე ასანთებად):</label>
+                <div class="city-selector">
+                  <label
+                    ><input
+                      type="radio"
+                      name="city"
+                      value="tbilisi"
+                      class="city-radio"
+                    />
+                    თბილისი</label
+                  >
+                  <label
+                    ><input
+                      type="radio"
+                      name="city"
+                      value="kutaisi"
+                      class="city-radio"
+                    />
+                    ქუთაისი</label
+                  >
+                  <label
+                    ><input
+                      type="radio"
+                      name="city"
+                      value="batumi"
+                      class="city-radio"
+                    />
+                    ბათუმი</label
+                  >
+                </div>
+              </div>
+
+              <div class="form-group">
+                <label>ზუსტი მისამართი (ბინაზე მოვლისთვის)</label>
+                <input
+                  type="text"
+                  placeholder="ქუჩა, ბინა, სართული..."
+                  required
+                />
+              </div>
+
+              <div class="form-group">
+                <label>ძირითადი დიაგნოზი</label>
+                <select required>
+                  <option value="">აირჩიეთ დიაგნოზი</option>
+                  <option>ონკოლოგიური დაავადება</option>
+                  <option>ნევროლოგიური (დემენცია, ალცჰაიმერი...)</option>
+                  <option>გულ-სისხლძარღვთა / ფილტვის ქრონიკული</option>
+                  <option>თირკმლის / ღვიძლის უკმარისობა</option>
+                </select>
+              </div>
+
+              <div class="form-group">
+                <label>რა აწუხებს პაციენტს? (სიმპტომები)</label>
+                <div class="checkbox-grid">
+                  <label><input type="checkbox" /> ძლიერი ტკივილი</label>
+                  <label><input type="checkbox" /> სუნთქვის გაძნელება</label>
+                  <label><input type="checkbox" /> მიჯაჭვულია საწოლს</label>
+                  <label><input type="checkbox" /> ნაწოლები</label>
+                </div>
+              </div>
+              <div class="form-group">
+                <label>რა სერვისი ესაჭიროება ამჟამად? (მოთხოვნის ტიპი)</label>
+                <div class="checkbox-grid">
+                  <label
+                    ><input type="checkbox" /> მობილური გუნდის ვიზიტი ბინაზე
+                    (ექიმი, ექთანი)</label
+                  >
+                  <label
+                    ><input type="checkbox" /> მოთავსება სტაციონარულ
+                    ჰოსპისში</label
+                  >
+                  <label
+                    ><input type="checkbox" /> მედიკამენტებით უზრუნველყოფა
+                    (ტკივილგამაყუჩებლები)</label
+                  >
+                  <label
+                    ><input type="checkbox" /> სამედიცინო აპარატურა/ინვენტარი
+                    (ფუნქციური საწოლი, ჟანგბადის კონცენტრატორი, ანტიდეკუბიტალური
+                    ლეიბი)</label
+                  >
+                  <label
+                    ><input type="checkbox" /> ფსიქოლოგის ან სოციალური მუშაკის
+                    კონსულტაცია</label
+                  >
+                </div>
+              </div>
+
+              <div class="form-group consent-box">
+                <label>
+                  <input type="checkbox" required />
+                  ვადასტურებ, რომ მონაცემები ანონიმურია და საჯარო რუკაზე პირადი
+                  ინფორმაცია არ გამოჩნდება.
+                </label>
+              </div>
+
+              <div class="navigation-btns">
+                <label for="step2-trigger" class="prev-btn">⬅️ უკან</label>
+                <button type="submit" class="submit-btn">
+                  რეგისტრაციის დასრულება 💾
+                </button>
+              </div>
+            </div>
+          </form>
+        </div>
+
+        <footer>
+          <h3>PaliCare</h3>
+          <p>თბილისი, საქართველო</p>
+          <p>+995 555 123 456</p>
+          <p>info@palicare.ge</p>
+          <div class="footer-links">
+            <a href="#">Facebook</a>
+            <a href="#">Instagram</a>
+            <a href="#">LinkedIn</a>
+          </div>
+          <p>© 2026 PaliCare. ყველა უფლება დაცულია.</p>
+        </footer>
+      </div>
+    </div>
+  </body>
+</html>

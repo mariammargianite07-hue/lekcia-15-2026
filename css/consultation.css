@@ -1,0 +1,44 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Segoe UI", sans-serif;
+  background: #f7f8fc;
+  color: #2d2d2d;
+}
+
+.article {
+  max-width: 900px;
+  margin: 60px auto;
+  background: white;
+  padding: 40px;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px rgba(0, 0, 0, 0.08);
+}
+
+.article h1 {
+  font-size: 34px;
+  color: #2c2c70;
+  margin-bottom: 10px;
+}
+
+.date {
+  color: gray;
+  margin-bottom: 30px;
+  font-size: 14px;
+}
+
+.article img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 30px;
+}
+
+.article p {
+  font-size: 18px;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}/*# sourceMappingURL=consultation.css.map */
